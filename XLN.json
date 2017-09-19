@@ -1,0 +1,1556 @@
+[{
+		"name": "Adanto Vanguard",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Ashes of the Abhorrent",
+		"color": "W",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Axis of Mortality",
+		"color": "W",
+		"rarity": "M",
+		"manaCost": 6,
+		"type": false
+	}, {
+		"name": "Bellowing Aegisaur",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 6,
+		"type": true
+	}, {
+		"name": "Bishop of Rebirth",
+		"color": "W",
+		"rarity": "R",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Bishop's Soldier",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Bright Reprisal",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Demystify",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Duskborne Skymarcher",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Emissary of Sunrise",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Encampment Keeper",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Glorifier of Dusk",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Goring Ceratops",
+		"color": "W",
+		"rarity": "R",
+		"manaCost": 7,
+		"type": true
+	}, {
+		"name": "Imperial Aerosaur",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Imperial Lancer",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Inspiring Cleric",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Ixalan's Binding",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Kinjalli's Caller",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Kinjalli's Sunwing",
+		"color": "W",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Legion Conquistador",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Legion's Judgment",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Looming Altisaur",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Mavren Fein, Dusk Apostle",
+		"color": "W",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Paladin of the Bloodstained",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Pious Interdiction",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Priest of the Wakening Sun",
+		"color": "W",
+		"rarity": "R",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Pterodon Knight",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Queen's Commission",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Rallying Roar",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Raptor Companion",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Ritual of Rejuvenation",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Sanguine Sacrament",
+		"color": "W",
+		"rarity": "R",
+		"type": false
+	}, {
+		"name": "Settle the Wreckage",
+		"color": "W",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Sheltering Light",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Shining Aerosaur",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Skyblade of the Legion",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Slash of Talons",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Steadfast Armasaur",
+		"color": "W",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Sunrise Seeker",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Territorial Hammerskull",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Tocatli Honor Guard",
+		"color": "W",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Vampire's Zeal",
+		"color": "W",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Wakening Sun's Avatar",
+		"color": "W",
+		"rarity": "M",
+		"manaCost": 8,
+		"type": true
+	}, {
+		"name": "Air Elemental",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Arcane Adaptation",
+		"color": "U",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Cancel",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Chart a Course",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Daring Saboteur",
+		"color": "U",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Deadeye Quartermaster",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Deeproot Waters",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Depths of Desire",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Dive Down",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Dreamcaller Siren",
+		"color": "U",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Entrancing Melody",
+		"color": "U",
+		"rarity": "R",
+		"type": false
+	}, {
+		"name": "Favorable Winds",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Fleet Swallower",
+		"color": "U",
+		"rarity": "R",
+		"manaCost": 7,
+		"type": true
+	}, {
+		"name": "Headwater Sentries",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Herald of Secret Streams",
+		"color": "U",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Jace, Cunning Castaway",
+		"color": "U",
+		"rarity": "M",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Kopala, Warden of Waves",
+		"color": "U",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Lookout's Dispersal",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Navigator's Ruin",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "One With the Wind",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Opt",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Overflowing Insight",
+		"color": "U",
+		"rarity": "M",
+		"manaCost": 7,
+		"type": false
+	}, {
+		"name": "Perilous Voyage",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Pirate's Prize",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Prosperous Pirates",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "River Sneak",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "River's Rebuke",
+		"color": "U",
+		"rarity": "R",
+		"manaCost": 6,
+		"type": false
+	}, {
+		"name": "Run Aground",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Sailor of Means",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Shaper Apprentice",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Shipwreck Looter",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Shore Keeper",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Siren Lookout",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Siren Stormtamer",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Siren's Ruse",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Spell Pierce",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Spell Swindle",
+		"color": "U",
+		"rarity": "R",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Storm Fleet Aerialist",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Storm Fleet Spy",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Storm Sculptor",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Tempest Caller",
+		"color": "U",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Watertrap Weaver",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Wind Strider",
+		"color": "U",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Anointed Deacon",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Bishop of the Bloodstained",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Blight Keeper",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Bloodcrazed Paladin",
+		"color": "B",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Boneyard Parley",
+		"color": "B",
+		"rarity": "M",
+		"manaCost": 7,
+		"type": false
+	}, {
+		"name": "Contract Killing",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Costly Plunder",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Dark Nourishment",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Deadeye Tormentor",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Deadeye Tracker",
+		"color": "B",
+		"rarity": "R",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Deathless Ancient",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 6,
+		"type": true
+	}, {
+		"name": "Desperate Castaways",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Dire Fleet Hoarder",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Dire Fleet Interloper",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Dire Fleet Ravager",
+		"color": "B",
+		"rarity": "M",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Duress",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Fathom Fleet Captain",
+		"color": "B",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Fathom Fleet Cutthroat",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Grim Captain's Call",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Heartless Pillage",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Kitesail Freebooter",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Lurking Chupacabra",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "March of the Drowned",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Mark of the Vampire",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Queen's Agent",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 6,
+		"type": true
+	}, {
+		"name": "Queen's Bay Soldier",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Raiders' Wake",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Revel in Riches",
+		"color": "B",
+		"rarity": "R",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Ruin Raider",
+		"color": "B",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Ruthless Knave",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Sanctum Seeker",
+		"color": "B",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Seekers' Squire",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Skittering Heartstopper",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Skulduggery",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Skymarch Bloodletter",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Spreading Rot",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Sword-Point Diplomacy",
+		"color": "B",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Vanquish the Weak",
+		"color": "B",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Vicious Conquistador",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Vraska's Contempt",
+		"color": "B",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Walk the Plank",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Wanted Scoundrels",
+		"color": "B",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Angrath's Marauders",
+		"color": "R",
+		"rarity": "R",
+		"manaCost": 7,
+		"type": true
+	}, {
+		"name": "Bonded Horncrest",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Brazen Buccaneers",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Burning Sun's Avatar",
+		"color": "R",
+		"rarity": "R",
+		"manaCost": 6,
+		"type": true
+	}, {
+		"name": "Captain Lannery Storm",
+		"color": "R",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Captivating Crew",
+		"color": "R",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Charging Monstrosaur",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Demolish",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Dinosaur Stampede",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Dual Shot",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Fathom Fleet Firebrand",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Fiery Cannonade",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Fire Shrine Keeper",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Firecannon Blast",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Frenzied Raptor",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Headstrong Brute",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Hijack",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Lightning Strike",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Lightning-Rig Crew",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Makeshift Munitions",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Nest Robber",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Otepec Huntmaster",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Rampaging Ferocidon",
+		"color": "R",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Raptor Hatchling",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Repeating Barrage",
+		"color": "R",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Rigging Runner",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Rile",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Rowdy Crew",
+		"color": "R",
+		"rarity": "M",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Rummaging Goblin",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Star of Extinction",
+		"color": "R",
+		"rarity": "M",
+		"manaCost": 7,
+		"type": false
+	}, {
+		"name": "Storm Fleet Arsonist",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Storm Fleet Pyromancer",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Sun-Crowned Hunters",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 6,
+		"type": true
+	}, {
+		"name": "Sunbird's Invocation",
+		"color": "R",
+		"rarity": "R",
+		"manaCost": 6,
+		"type": false
+	}, {
+		"name": "Sure Strike",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Swashbuckling",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Thrash of Raptors",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Tilonalli's Knight",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Tilonalli's Skinshifter",
+		"color": "R",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Trove of Temptation",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Unfriendly Fire",
+		"color": "R",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Wily Goblin",
+		"color": "R",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Ancient Brontodon",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 8,
+		"type": true
+	}, {
+		"name": "Atzocan Archer",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Blinding Fog",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Blossom Dryad",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Carnage Tyrant",
+		"color": "G",
+		"rarity": "M",
+		"manaCost": 6,
+		"type": true
+	}, {
+		"name": "Colossal Dreadmaw",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 6,
+		"type": true
+	}, {
+		"name": "Commune with Dinosaurs",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Crash the Ramparts",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Crushing Canopy",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Deathgorge Scavenger",
+		"color": "G",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Deeproot Champion",
+		"color": "G",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Deeproot Warrior",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Drover of the Mighty",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Emergent Growth",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Emperor's Vanguard",
+		"color": "G",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Grazing Whiptail",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Ixalli's Diviner",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Ixalli's Keeper",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Jade Guardian",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Jungle Delver",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Kumena's Speaker",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Merfolk Branchwalker",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "New Horizons",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Old-Growth Dryads",
+		"color": "G",
+		"rarity": "R",
+		"manaCost": 1,
+		"type": true
+	}, {
+		"name": "Pounce",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Ranging Raptors",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Ravenous Daggertooth",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Ripjaw Raptor",
+		"color": "G",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "River Heralds' Boon",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Savage Stomp",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Shapers' Sanctuary",
+		"color": "G",
+		"rarity": "R",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Slice in Twain",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Snapping Sailback",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Spike-Tailed Ceratops",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Thundering Spineback",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 7,
+		"type": true
+	}, {
+		"name": "Tishana's Wayfinder",
+		"color": "G",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Verdant Rebirth",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Verdant Sun's Avatar",
+		"color": "G",
+		"rarity": "R",
+		"manaCost": 7,
+		"type": true
+	}, {
+		"name": "Vineshaper Mystic",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Waker of the Wilds",
+		"color": "G",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Wildgrowth Walker",
+		"color": "G",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Admiral Beckett Brass",
+		"color": "M",
+		"rarity": "M",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Belligerent Brontodon",
+		"color": "M",
+		"rarity": "U",
+		"manaCost": 7,
+		"type": true
+	}, {
+		"name": "Call to the Feast",
+		"color": "M",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": false
+	}, {
+		"name": "Deadeye Plunderers",
+		"color": "M",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Dire Fleet Captain",
+		"color": "M",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Gishath, Sun's Avatar",
+		"color": "M",
+		"rarity": "M",
+		"manaCost": 8,
+		"type": true
+	}, {
+		"name": "Hostage Taker",
+		"color": "M",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Huatli, Warrior Poet",
+		"color": "M",
+		"rarity": "M",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Marauding Looter",
+		"color": "M",
+		"rarity": "U",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Raging Swordtooth",
+		"color": "M",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Regisaur Alpha",
+		"color": "M",
+		"rarity": "R",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Shapers of Nature",
+		"color": "M",
+		"rarity": "U",
+		"manaCost": 3,
+		"type": true
+	}, {
+		"name": "Sky Terror",
+		"color": "M",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": true
+	}, {
+		"name": "Tishana, Voice of Thunder",
+		"color": "M",
+		"rarity": "M",
+		"manaCost": 7,
+		"type": true
+	}, {
+		"name": "Vona, Butcher of Magan",
+		"color": "M",
+		"rarity": "M",
+		"manaCost": 5,
+		"type": true
+	}, {
+		"name": "Vraska, Relic Seeker",
+		"color": "M",
+		"rarity": "M",
+		"manaCost": 6,
+		"type": false
+	}, {
+		"name": "Legion's Landing",
+		"color": "W",
+		"rarity": "R",
+		"manaCost": 1,
+		"type": false,
+		"flip": "Adanto, the First Fort"
+	}, {
+		"name": "Search for Azcanta",
+		"color": "U",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": false,
+		"flip": "Azcanta, the Sunken Ruin"
+	}, {
+		"name": "Arguel's Blood Fast",
+		"color": "B",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": false,
+		"flip": "Temple of Aclazotz"
+	}, {
+		"name": "Vance's Blasting Cannons",
+		"color": "R",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": false,
+		"flip": "Spitfire Bastion"
+	}, {
+		"name": "Growing Rites of Itlimoc",
+		"color": "G",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": false,
+		"flip": "Itlimoc, Cradle of the Sun"
+	}, {
+		"name": "Conqueror's Galleon",
+		"color": "C",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": false,
+		"flip": "Conqueror's Foothold"
+	}, {
+		"name": "Dowsing Dagger",
+		"color": "C",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": false,
+		"flip": "Lost Vale"
+	}, {
+		"name": "Primal Amulet",
+		"color": "C",
+		"rarity": "R",
+		"manaCost": 4,
+		"type": false,
+		"flip": "Primal Wellspring"
+	}, {
+		"name": "Thaumatic Compass",
+		"color": "C",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": false,
+		"flip": "Spires of Orazca"
+	}, {
+		"name": "Treasure Map",
+		"color": "C",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": false,
+		"flip": "Treasure Cove"
+	}, {
+		"name": "Cobbled Wings",
+		"color": "C",
+		"rarity": "C",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Dusk Legion Dreadnought",
+		"color": "C",
+		"rarity": "U",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Elaborate Firecannon",
+		"color": "C",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Fell Flagship",
+		"color": "C",
+		"rarity": "R",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Gilded Sentinel",
+		"color": "C",
+		"rarity": "C",
+		"manaCost": 4,
+		"type": true
+	}, {
+		"name": "Hierophant's Chalice",
+		"color": "C",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Pillar of Origins",
+		"color": "C",
+		"rarity": "U",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Pirate's Cutlass",
+		"color": "C",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Prying Blade",
+		"color": "C",
+		"rarity": "C",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Sentinel Totem",
+		"color": "C",
+		"rarity": "U",
+		"manaCost": 1,
+		"type": false
+	}, {
+		"name": "Shadowed Caravel",
+		"color": "C",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Sleek Schooner",
+		"color": "C",
+		"rarity": "C",
+		"manaCost": 3,
+		"type": false
+	}, {
+		"name": "Sorcerous Spyglass",
+		"color": "C",
+		"rarity": "R",
+		"manaCost": 2,
+		"type": false
+	}, {
+		"name": "Vanquisher's Banner",
+		"color": "C",
+		"rarity": "R",
+		"manaCost": 5,
+		"type": false
+	}, {
+		"name": "Dragonskull Summit",
+		"color": "L",
+		"rarity": "R",
+		"type": false
+	}, {
+		"name": "Drowned Catacomb",
+		"color": "L",
+		"rarity": "R",
+		"type": false
+	}, {
+		"name": "Field of Ruin",
+		"color": "L",
+		"rarity": "U",
+		"type": false
+	}, {
+		"name": "Glacial Fortress",
+		"color": "L",
+		"rarity": "R",
+		"type": false
+	}, {
+		"name": "Rootbound Crag",
+		"color": "L",
+		"rarity": "R",
+		"type": false
+	}, {
+		"name": "Sunpetal Grove",
+		"color": "L",
+		"rarity": "R",
+		"type": false
+	}, {
+		"name": "Unclaimed Territory",
+		"color": "L",
+		"rarity": "U",
+		"type": false
+	}, {
+		"name": "Unknown Shores",
+		"color": "L",
+		"rarity": "C",
+		"type": false
+	}
+]

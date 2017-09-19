@@ -1,0 +1,108 @@
+ html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #C0D9D9;
+}
+
+
+* {
+	font-family: Consolas;
+}
+
+.container {
+	margin: 0;
+	line-height: 0;
+	overflow-y: auto;
+}
+
+.emptyMessage {
+	height: 100%;
+	width: 100%;
+	font-size: 24px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.frame {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.pool {
+	flex: 0 0 60%;
+}
+
+.deck {
+	flex-grow: 1;
+}
+
+.container > img {
+	margin: 2px;
+}
+
+.deckHeader {
+	cursor: row-resize;
+	flex: 0 0 24px;
+	overflow: hidden;
+	vertical-align: middle;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	/* box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); */
+}
+
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyFrame {
+	
+	height: 60%;
+	width: 40%;
+	box-sizing: border-box;
+	border: 0;
+	padding: 4px;
+	font-size: 12px;
+	overflow-y: auto;
+	word-break: break-all;
+}
+
+textarea {
+	resize: none;
+}
+
+/* cardSize0 is full size */
+
+.cardSize1 {
+	height: 222px;
+	width: 159px;
+}
+
+.cardSize2 {
+	height: 148px;
+	width: 106px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
