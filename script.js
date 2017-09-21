@@ -4,17 +4,16 @@ app.controller('Controller', ['$scope', '$http', function ($scope, $http) {
 
 	$scope.percent = 60;
 	$scope.cardSize = 1;
-	$scope.showDeckList = false;
-
-	function startup() {
-		$scope.flip = false;
-		$scope.deckNumber = 0;
-		$scope.pool = [];
-		$scope.decks = [[], [], []];
-		$scope.junk = [];
-	}
+	$scope.popup = null;
+	$scope.flip = false;
+	$scope.pool = new CardList(poolCompare);
+	$scope.decks = [
+		new CardList(deckCompare, 'deck 1'), 
+		new CardList(deckCompare, 'deck 2'), 
+		new CardList(deckCompare, 'deck 3')];
+	$scope.junk = new CardList(poolCompare, 'junk');
 	
-	startup();
+	$scope.currentDeck = $scope.decks[0];
 
 	$scope.test = function(e) {
 		$scope.percent = e.clientY;
@@ -42,10 +41,7 @@ app.controller('Controller', ['$scope', '$http', function ($scope, $http) {
 		if (file.name == 'state.json') {
 			reader.onload = function(e1) {
 				$scope.$apply(function() {
-					startup();
-					var state = JSON.parse(e1.target.result);
-					$scope.pool = state.pool;
-					$scope.decks = state.decks;
+					loadSession(JSON.parse(e1.target.result));
 				});
 			};
 		} else {
@@ -77,13 +73,20 @@ app.controller('Controller', ['$scope', '$http', function ($scope, $http) {
 				}
 			}
 		}
-		pool.sort(compareCards);
-		startup();
-		$scope.pool = pool;
+		$scope.pool.contents = pool;
+		$scope.pool.sort();
+	}
+	
+	function loadSession(state) {
+		$scope.pool.contents = state.pool;
+		for (var i = 0; i < 3; i++) {
+			$scope.decks[i].contents = state.decks[i];
+		}
+		$scope.junk.contents = state.junk;
 	}
 	
 	function formatDeck() {
-		var deckList = toMultiset($scope.currentDeck().map(function(card) {
+		var deckList = toMultiset($scope.currentDeck.contents.map(function(card) {
 			return card.name;
 		}));
 		var buffer = [];
@@ -100,71 +103,69 @@ app.controller('Controller', ['$scope', '$http', function ($scope, $http) {
 		}
 		return multiset;
 	}
-	
+
+	function sessionDump() {
+		return JSON.stringify({
+			pool: $scope.pool.contents,
+			decks: $scope.decks.map(function(list) { return list.contents; }),
+			junk: $scope.junk.contents
+		});
+	}
+
 	$scope.getImageName = function(card) {
 		return $scope.flip && card.flip ? card.flipImageName : card.imageName;
+	};
+
+	$scope.moveCard = function(listFrom, listTo, index) {
+		listTo.insert(listFrom.contents.splice(index, 1)[0]);
+	};
+
+	$scope.hideDeckList = function() {
+		$scope.popup = null;
+	};
+	
+	function showPopup(type, text) {
+		if ($scope.popup == type) {
+			$scope.popup = null;
+		} else {
+			$scope.popup = type;
+			$scope.popupText = text;
+		}
 	}
 
 	$scope.shortcut =  function(e) {
 		switch (e.key) {
-			case 'f':
-				$scope.flip ^= true;
-				break;
-			case '1':
+			case 'f': $scope.flip ^= true; break;
+			case '1': 
 			case '2':
-			case '3':
-				$scope.deckNumber = Number(e.key) - 1;
-				break;
-			case 'x':
-				$scope.showDeckList ^= true;
-				$scope.paste = formatDeck();
-				break;
-			case 's':
-				$scope.showDeckList ^= true;
-				$scope.paste = JSON.stringify({
-					pool: $scope.pool,
-					decks: $scope.decks
-				});
-				break;
-			case '=':
-				$scope.cardSize = Math.max($scope.cardSize - 1, 0)
-				break;
-			case '-':
-				$scope.cardSize = Math.min($scope.cardSize + 1, 2)
-				break;
+			case '3': $scope.currentDeck = $scope.decks[Number(e.key) - 1]; break;
+			case 'j': $scope.currentDeck = $scope.junk; break;
+			case 'x': showPopup('deck', formatDeck()); break;
+			case 's': showPopup('dump', sessionDump()); break;
+			case '=': $scope.cardSize = Math.max($scope.cardSize - 1, 0); break;
+			case '-': $scope.cardSize = Math.min($scope.cardSize + 1, 2); break;
+			case 'Escape': $scope.hideDeckList(); break;
 			default:
 		}
     };
 
-	$scope.currentDeck = function() {
-		return $scope.decks[$scope.deckNumber];
-	}
-	
-	$scope.rotateDeck = function() {
-		$scope.deckNumber = ($scope.deckNumber + 1) % 3;
-	};
-	
-	$scope.moveCard = function(locFrom, locTo, index) {
-		locTo.push(locFrom.splice(index, 1)[0]);
-		locTo.sort(compareCards);
-	};
-	
-	$scope.hideDeckList = function() {
-		$scope.showDeckList = false;
-	}
-	
 }]);
 
-function cardGroup(sortMethod) {
-	return {
-		cards: [],
-		sort: function() {
-			this.cards.sort(sortMethod);
-		}
-	};
+function CardList(comparator, name) {
+    this.contents = [];
+	this.name = name;
+	this.comparator = comparator;
+} 
+
+CardList.prototype.sort = function() {
+	this.contents.sort(this.comparator);
 }
 
-function compareCards(card1, card2) {
+CardList.prototype.insert = function(card) {
+	insertSorted(this.contents, card, this.comparator);
+}
+
+function poolCompare(card1, card2) {
 	return comparisonChain()
 			.compare(COLOR_ORDER[card1.color],  COLOR_ORDER[card2.color])
 			.compare(!card1.type, !card2.type)
@@ -173,7 +174,7 @@ function compareCards(card1, card2) {
 			.result;
 }
 
-function compareCards2(card1, card2) {
+function deckCompare(card1, card2) {
 	return comparisonChain()
 			.compare(card1.color == 'L', card2.color == 'L')
 			.compare(!card1.type, !card2.type)
@@ -181,6 +182,27 @@ function compareCards2(card1, card2) {
 			.compare(COLOR_ORDER[card1.color], COLOR_ORDER[card2.color])
 			.compare(card1.name, card2.name)
 			.result;
+}
+
+function insertSorted(array, card, compareMethod) {
+	array.splice(insertionIndex(array, card, compareMethod), 0, card);
+}
+
+function insertionIndex(array, card, compareMethod) {
+	var low = 0;
+	var high = array.length - 1;
+	while (low <= high) {
+		var mid = Math.floor((low + high) / 2);
+		var cmp = compareMethod(card, array[mid]);
+		if (cmp > 0) {
+			low = mid + 1;
+		} else if (cmp < 0) {
+			high = mid - 1;
+		} else {
+			return mid;
+		}
+	}
+	return low;
 }
 
 var lookup = {};

@@ -16,7 +16,7 @@
 <script src="script.js"></script>
 <script src="XLN.jsonp"></script>
 
-<title>Team Bearscape Proprietary Deck Editing Suite</title>
+<title>Team Bearscape Proprietary Deck Editing Suite v1.0</title>
 
 </head>
 
@@ -25,27 +25,28 @@
 	<div class="frame">
 	
 		<div class="pool container noselect" ng-style="{'flex-basis' : percent + '%'}">
-			<div ng-if="!pool.length" class="emptyMessage">[EMPTY]</div>
+			<div ng-if="!pool.contents.length" class="emptyMessage">[EMPTY]</div>
 			<img ng-class="'cardSize' + cardSize"
-					ng-repeat="card in pool track by $index" 
+					ng-repeat="card in pool.contents track by $index" 
 					ng-src="images/{{getImageName(card)}}.png"
-					ng-click="moveCard(pool, currentDeck(), $index)">
+					ng-click="moveCard(pool, currentDeck, $index)">
 		</div>
 
-		<div class="deckHeader noselect" ng-click="">DECK {{deckNumber + 1}} ({{currentDeck().length}} cards)</div>
+		<div class="deckHeader noselect" ng-mousedown="startMoveDivider()">{{currentDeck.name|uppercase}} ({{currentDeck.contents.length}} cards)</div>
 
 		<div class="deck container noselect">
-			<div ng-if="!currentDeck().length" class="emptyMessage">[EMPTY]</div>
+			<div ng-if="!currentDeck.contents.length" class="emptyMessage">[EMPTY]</div>
 			<img ng-class="'cardSize' + cardSize"
-					ng-repeat="card in currentDeck() track by $index" 
+					ng-repeat="card in currentDeck.contents track by $index" 
 					ng-src="images/{{getImageName(card)}}.png"
-					ng-click="moveCard(currentDeck(), pool, $index)">
+					ng-click="moveCard(currentDeck, pool, $index)">
 		</div>
 	</div>
 
-	<div class="popup" ng-show="showDeckList" ng-click="hideDeckList()">
-		<textarea class="copyFrame" ng-click="$event.stopPropagation()" ng-model="paste" readonly></textarea>
+	<div class="popup" ng-show="popup" ng-click="hideDeckList()">
+		<textarea class="copyFrame" ng-click="$event.stopPropagation()" ng-model="popupText" readonly></textarea>
 	<div>
+
 </body>
 
 </html>
