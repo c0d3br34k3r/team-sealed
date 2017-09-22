@@ -23,8 +23,8 @@
 <body ng-mousemove="">
 
 	<div class="frame">
-	
-		<div class="pool container noselect" ng-style="{'flex-basis' : percent + '%'}">
+
+		<div class="pool container noselect">
 			<div ng-if="!pool.contents.length" class="emptyMessage">[EMPTY]</div>
 			<img ng-class="'cardSize' + cardSize"
 					ng-repeat="card in pool.contents track by $index" 
@@ -32,7 +32,7 @@
 					ng-click="moveCard(pool, currentDeck, $index)">
 		</div>
 
-		<div class="deckHeader noselect" ng-mousedown="startMoveDivider()">{{currentDeck.name|uppercase}} ({{currentDeck.contents.length}} cards)</div>
+		<div class="deckHeader noselect" slider ng-mousedown="startMoveDivider()">{{currentDeck.name|uppercase}} ({{currentDeck.contents.length}} cards)</div>
 
 		<div class="deck container noselect">
 			<div ng-if="!currentDeck.contents.length" class="emptyMessage">[EMPTY]</div>
@@ -41,6 +41,7 @@
 					ng-src="images/{{getImageName(card)}}.png"
 					ng-click="moveCard(currentDeck, pool, $index)">
 		</div>
+
 	</div>
 
 	<div class="popup" ng-show="popup" ng-click="hideDeckList()">
